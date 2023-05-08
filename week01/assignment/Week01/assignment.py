@@ -21,13 +21,15 @@ Instructions:
 - You can create other functions if needed.
 - No global variables.
 
+/usr/local/bin/python3.10 -m pip install git+https://github.com/byui-cse/cse251-course-files.git
+
 """
 
 
 import math
 import threading 
 import os
-from cse251turtle import *
+from Week01.cse251turtle import *
 
 # Include CSE 251 common Python files. 
 from cse251 import *
